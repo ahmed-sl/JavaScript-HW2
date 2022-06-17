@@ -1,0 +1,65 @@
+/* #continer{
+width: 50%;
+height: 500px;
+}
+
+#continer>img{
+    width: 50%;
+    height: 50px;
+    } */
+
+@media (min-width: 320px) {
+  .card {
+    margin: 9px 41px;
+    width: 76% !important;
+    margin-top: 50px !important;
+  }
+}
+
+@media (min-width: 375px) {
+  .card {
+    margin: 9px 48px;
+    width: 76% !important;
+    margin-top: 50px !important;
+  }
+}
+
+@media (min-width: 425px) {
+  .card {
+    margin: 9px 51px;
+    width: 76% !important;
+    margin-top: 50px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    margin: 29px 39px;
+    width: 40% !important;
+    margin-top: 40px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    margin: 29px 52px;
+    width: 40% !important;
+    margin-top: 40px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+    margin: 29px 75px;
+    width: 23% !important;
+    margin-top: 40px !important;
+  }
+}
+
+@media (min-width: 1666px) {
+  .card {
+    margin: 28px 42px;
+    width: 21% !important;
+    margin-top: 50px !important;
+  }
+}
