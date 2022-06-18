@@ -96,17 +96,17 @@ console.log("Is there at least one <50? " + isHaveMale);
 async function getImage() {
   const size = 20;
   // const items = list.slice(0, size) ;
-  let data = await fetch("https://rickandmortyapi.com/api/character")
+  let data = await fetch("https://breakingbadapi.com/api/characters")
     .then((res) => res.json())
-    .then((value) => value);
-  let results = data.results;
+  let results = data;
   console.log(results);
   const dataImage = results.map(
     (re) =>
       `
         <div class="col-lg-4 col-md-6 col-sm-12 card">
             <div class="card-body">
-            <img src=${re.image} class="card-img-top" alt="image" />
+            <img src=${re.img} class="card-img-top" alt="image" />
+            <h5 class = "imageInfo">${re.nickname}</h5>
             </div>
             <div class="card-body">
             <h5 class="card-title">${re.name}</h5>

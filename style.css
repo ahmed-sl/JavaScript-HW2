@@ -1,12 +1,11 @@
-/* #continer{
-width: 50%;
-height: 500px;
+.card-img-top{
+  width: 500px;
+  height: 500px;
 }
-
-#continer>img{
-    width: 50%;
-    height: 50px;
-    } */
+.imageInfo {
+  margin-top: 15px;
+  text-align: center;
+}
 
 @media (min-width: 320px) {
   .card {
